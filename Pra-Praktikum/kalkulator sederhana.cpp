@@ -24,6 +24,23 @@ int main(){
         hasil=bil1+bil2;
         cout<<"Hasil = "<<hasil<<endl;
         break;
+    case 2:
+        cout<<"Masukan Bilangan Pertama : "<<endl;
+        cin>>bil1;
+        cout<<"Masukan Bilangan Kedua   : "<<endl;
+        cin>>bil2;
+        hasil=bil1-bil2;
+        cout<<"Hasil = "<<hasil<<endl;
+        break;
+    case 3:
+        cout<<"Masukan Bilangan Pertama : "<<endl;
+        cin>>bil1;
+        cout<<"Masukan Bilangan Kedua   : "<<endl;
+        cin>>bil2;
+        hasil=bil1*bil2;
+        cout<<"Hasil = "<<hasil<<endl;
+        break;
+
 }
   while(ulang=='y');
   return 0;
